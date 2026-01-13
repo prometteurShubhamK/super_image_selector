@@ -18,7 +18,11 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  uses-material-design: true
   plugin:
     platforms:
       android:
+        package: com.example.super_image_selector
+        pluginClass: SuperImageSelectorPlugin
       ios:
+        pluginClass: SuperImageSelectorPlugin
