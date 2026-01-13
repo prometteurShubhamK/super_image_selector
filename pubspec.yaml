@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  super_image_selector:
+    path: ../    # This points to the plugin folder   
 
 dev_dependencies:
   flutter_test:
